@@ -1,0 +1,144 @@
+@media (max-width: 413px) {
+
+	.moduletable-mobilenav .menu-mobile {
+		margin-top: 1.85em;
+		width: 100%;
+	}
+	
+	/* Hero */
+
+	.custom-homehero {
+		height: 350px;
+	}
+
+	.custom-homehero .herotext h1 {
+		font-size: 28px;
+	}
+
+	.custom-homehero .herotext .button-med-blue-inv a {
+		font-size: .95em;
+		padding: .5em;
+	}
+
+	/* Logo */
+
+	/*.custom-makerstudioslogo {
+		background-size: 65%;
+		margin: .5em 1% -.5em -13%;
+	}*/
+
+	/* Nav */
+
+	.moduletable-mobilenav h3 {
+		font-size: .9em;
+		margin-top: 2em;
+	}
+
+	/* Mobile Nav */
+
+	/*#submast */.moduletable-mobilenav .menu-mobile {
+		/*margin-top: 2.3em;*/
+		margin-top: 2.4em;
+		width: 100%;
+	}
+
+	.menu-mobile .search-box {
+		max-width: 93%;
+	}
+
+	/* Breadcrumbs */
+
+	#breadcrumbs {
+		font-size: .65em;
+		margin-left: 3.25%;
+		margin-bottom: 5%;
+	}
+
+	/* Hero */
+
+	.custom-homehero .herotext {
+		width: 368px;
+		top: 44%;
+	}
+
+	.custom-homehero .herotext h1 {
+		font-size: 16px;
+	}
+
+	/* Flex */
+
+	.flex-float {
+		margin-bottom: 5.25%;
+	}
+
+	.custom-flex.one {
+		margin-bottom: 2.5em;
+	}
+
+	.custom-flex .button-sm-blue-inv a {
+		padding: .45em;
+		font-size: .9em;
+	}
+
+	.custom-video .custom-video, #footer {
+		padding-top: 7%;
+		padding-bottom: 7%;
+	}
+
+	.custom-video .category-desc {
+		padding-bottom: 3.25%;
+	}
+
+	/* Academics */
+
+	#left .menuhead h3 {
+		font-size: .85em;
+		margin-left: 0;
+	}
+
+	.article h1 {
+		font-size: 1.8em;
+	}
+
+	/* Equipment */
+
+	.equip .item .readmore {
+		margin-left: 18%;
+	}
+
+	/* Footer */
+
+	#footer {
+		/*height: 180px;*/
+		height: auto;
+	}
+
+	.moduletable-copyright {
+		text-align: center;
+		padding: 1em 2em 0 2.3em;
+	}
+
+	.expand {
+		display: none;
+	}
+
+	.moduletable-resources .custom-resources {
+		text-align: center;
+		margin-bottom: 1.5em;
+	}
+
+	.moduletable-resources span {
+		display: inline-block;
+		margin-right: .7em;
+	}
+
+	.moduletable-resources span a {
+		font-size: .75em;
+		color: #6d6e71;
+	}
+
+	.moduletable-resources ul li {
+		float: none;
+		/*padding: 1em 0 0 0;*/
+	}
+}
