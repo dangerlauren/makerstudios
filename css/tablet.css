@@ -124,7 +124,8 @@
 }
 
 .custom-homehero .herotext {
-	top: 58%;
+	top: 68%;
+	width: 650px;
 }
 
 .custom-homehero .herotext h1 {
@@ -349,6 +350,10 @@
 		float: none;
 		text-align: center;
 	}
+
+	.custom-homehero .herotext {
+		width: 92%;
+	}
 }
 
 @media (max-width: 600px) {
@@ -375,8 +380,8 @@
 	}
 
 	.custom-homehero .herotext {
-		width: 94%;
-		top: 54%;
+		width: 93%;
+		top: 66%;
 	}
 
 	.equip div.item:nth-child(n), .equip div.item:nth-child(n) ~ div.item {
@@ -445,10 +450,20 @@
 	}
 }
 
+@media (max-width: 525px) {
+	.custom-homehero .herotext {
+		top: 65%;
+	}
+}
+
 @media (max-width: 475px) {
 	.custom-makerstudioslogo {
 		background-size: 65%;
 		margin: .5em 1% -.5em -13%;
+	}
+
+	.custom-homehero .herotext {
+		top: 61%;
 	}
 
 	.custom-flex.club h3 {

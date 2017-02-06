@@ -449,7 +449,7 @@ form .finder input {
 	display: inline-block;
 	font-size: .87em;
 	letter-spacing: .1em;
-	margin: 0 3.2em;
+	margin: 0 2.1em;
 	text-transform: uppercase;
 }
 
@@ -588,7 +588,7 @@ form .finder input {
 
 .custom-homehero .herotext {
 	position: absolute;
-	top: 57%;
+	top: 71%;
 	left: 3.25%;
 	width: 750px;
 	letter-spacing: .01em;
