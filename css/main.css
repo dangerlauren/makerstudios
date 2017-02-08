@@ -409,7 +409,10 @@ form .finder button {
 }
 
 form .finder label {
-    display: none;
+    /*display: none;*/
+    position: absolute !important;
+	clip: rect(1px 1px 1px 1px)
+
 }
 
 form .finder input {
