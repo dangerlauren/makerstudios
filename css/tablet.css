@@ -135,11 +135,24 @@
 .custom-flex h3 {
 	font-size: 1em;
 	margin-bottom: 1em;
-	margin-top: .8em;
+}
+
+.custom-flex.fac1, .custom-flex.fac2, .custom-flex.fac3 {
+	padding: 2% 2% 4% 6%;
 }
 
 .custom-flex.fac1 .category, .custom-flex.fac2 .category, .custom-flex.fac3 .category {
-	margin: 1.8em 0 .8em 0;
+	margin: 1em 0 .8em 0;
+	padding-left: 0;
+}
+
+.custom-flex.fac1 .hours, .custom-flex.fac2 .hours, .custom-flex.fac3 .hours, .custom-flex.fac1 h3, .custom-flex.fac2 h3, .custom-flex.fac3 h3 {
+	padding-left: 0;
+}
+
+.fac1 .button-sm-blue, .fac2 .button-sm-blue, .fac3 .button-sm-blue {
+	float: right;
+	margin: -3.5em 3% 1em 0;
 }
 
 .custom-video .category-desc {
@@ -468,5 +481,10 @@
 
 	.custom-flex.club h3 {
 		margin-top: 0;
+	}
+
+	.fac1 .button-sm-blue, .fac2 .button-sm-blue, .fac3 .button-sm-blue {
+		float: none;
+		margin-top: 2.5em;
 	}
 }
