@@ -941,6 +941,15 @@ form .finder input {
 	margin-bottom: 2em;
 }
 
+.courses h2 + p {
+	border-bottom: 1px solid #eaeaea;
+	padding-bottom: 2em;
+}
+
+.courses h2 + p:last-of-type {
+	border-bottom: none;
+}
+
 .blog .category-desc {
 	margin-bottom: 3em;
 }
@@ -1301,6 +1310,12 @@ form .finder input {
 	letter-spacing: .025em;
 	float: right;
 	text-align: right;
+}
+
+@media (max-width: 1170px) {
+	.moduletable-mainnav .nav li {
+		font-size: .75em;
+	}
 }
 
 @media (max-width: 1330px) {
